@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-style: double;
+}
+
+strong {
+    margin-bottom: 5em;
+    font-size: 33px;
+    text-decoration: underline;
+    color: #99FEFF;
+}
+
+form {
+    line-height: 3.5;
+    text-align: center;
+}
+
+form h3 {
+    font-size: 23px;
+    color: #142F43;
+}
+
+input {
+    outline: none;
+}
+
+.btn {
+    height: 30px;
+    width: 80px;
+    background: linear-gradient(180deg,#02C5F5, #92FE9E);
+    border-style: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+h5 {
+    font-size: 22px;
+    color: #2C272E;
+}
